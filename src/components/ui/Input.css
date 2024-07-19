@@ -1,0 +1,27 @@
+.custom-input {
+    display: flex;
+    height: 40px; /* 10 * 4 */
+    width: 100%;
+    border-radius: 8px; /* 2 * 4 */
+    border: 1px solid #e0e0e0; /* Replace with your border color */
+    background-color: #fff; /* Replace with your background color */
+    padding: 8px 12px; /* px-3 py-2 */
+    font-size: 14px; /* text-sm */
+    outline-offset: 2px;
+  }
+  
+  .custom-input::placeholder {
+    color: #999; /* Replace with your muted foreground color */
+  }
+  
+  .custom-input:focus-visible {
+    outline: none;
+    border-color: #5b9bd5; /* Replace with your ring color */
+    box-shadow: 0 0 0 2px rgba(91, 155, 213, 0.5); /* Replace with your ring color */
+  }
+  
+  .custom-input:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  

@@ -1,0 +1,47 @@
+/* Card Styles */
+.card {
+    border-radius: 0.5rem;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CardHeader Styles */
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    padding: 1.5rem;
+  }
+  
+  /* CardTitle Styles */
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* CardDescription Styles */
+  .card-description {
+    font-size: 0.875rem;
+    color: #666;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* CardContent Styles */
+  .card-content {
+    padding: 1.5rem;
+    padding-top: 0;
+  }
+  
+  /* CardFooter Styles */
+  .card-footer {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    padding-top: 0;
+  }
+  
